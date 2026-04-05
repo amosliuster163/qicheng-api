@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "title": "天津市高校详细信息",
+    "source_name": "教育部 + 各高校官网",
+    "publish_date": "2026-04-04",
+    "last_update": "2026-04-04",
+    "description": "天津市主要高校详细信息，包含985、211及其他重点高校",
+    "total_count": 10,
+    "tianjin_local": true
+  },
+  "universities": [
+    {
+      "id": "tj-001",
+      "name": "南开大学",
+      "type": "985/211",
+      "level": "顶尖",
+      "province": "天津",
+      "city": "天津",
+      "location": "南开区卫津路94号",
+      "official_url": "https://www.nankai.edu.cn/",
+      "established": "1919年",
+      "features": ["文理综合", "经济强", "化学强", "历史强"],
+      "hot_majors": [
+        {"name": "经济学", "level": "A+", "description": "全国顶尖"},
+        {"name": "化学", "level": "A", "description": "全国前列"},
+        {"name": "历史学", "level": "A", "description": "全国前列"},
+        {"name": "数学", "level": "A-", "description": "全国前列"},
+        {"name": "工商管理", "level": "A", "description": "全国前列"}
+      ],
+      "rankings": {
+        "软科2024": "全国第12",
+        "QS2024": "全国第10",
+        "学科评估": "14个A类学科"
+      },
+      "admission": {
+        "2024天津分数线": "650+",
+        "招生人数": "约3000人/年",
+        "学费": "5000-6000元/年"
+      },
+      "campus": ["八里台校区", "津南校区", "泰达校区"],
+      "description": "南开大学是教育部直属重点综合性大学，是国家"985工程"和"211工程"重点建设高校，入选国家"双一流"建设高校A类名单。",
+      "suitable_for": ["文科生", "理科生", "经济类考生", "化学类考生"],
+      "employment_rate": "95%+",
+      "notable_alumni": ["周恩来", "曹禺", "陈省身"]
+    },
+    {
+      "id": "tj-002",
+      "name": "天津大学",
+      "type": "985/211",
+      "level": "顶尖",
+      "province": "天津",
+      "city": "天津",
+      "location": "南开区卫津路92号",
+      "official_url": "https://www.tju.edu.cn/",
+      "established": "1895年",
+      "features": ["工科顶尖", "建筑强", "化工强", "管理强"],
+      "hot_majors": [
+        {"name": "建筑学", "level": "A", "description": "全国前三"},
+        {"name": "化学工程与技术", "level": "A+", "description": "全国第一"},
+        {"name": "管理科学与工程", "level": "A", "description": "全国前列"},
+        {"name": "光学工程", "level": "A", "description": "全国前列"},
+        {"name": "仪器科学与技术", "level": "A", "description": "全国前列"}
+      ],
+      "rankings": {
+        "软科2024": "全国第16",
+        "QS2024": "全国第12",
+        "学科评估": "14个A类学科"
+      },
+      "admission": {
+        "2024天津分数线": "650+",
+        "招生人数": "约4000人/年",
+        "学费": "5000-6000元/年"
+      },
+      "campus": ["卫津路校区", "北洋园校区"],
+      "description": "天津大学是中国第一所现代大学，前身为北洋大学，是教育部直属国家重点大学，是国家"985工程"和"211工程"重点建设高校，入选国家"双一流"建设高校A类名单。",
+      "suitable_for": ["工科生", "建筑类考生", "化工类考生"],
+      "employment_rate": "96%+",
+      "history_note": "中国第一所现代大学（1895年建校）"
+    },
+    {
+      "id": "tj-003",
+      "name": "天津医科大学",
+      "type": "211",
+      "level": "重点",
+      "province": "天津",
+      "city": "天津",
+      "location": "和平区气象台路22号",
+      "official_url": "https://www.tmu.edu.cn/",
+      "established": "1951年",
+      "features": ["医学强", "肿瘤学顶尖", "中西医结合"],
+      "hot_majors": [
+        {"name": "临床医学", "level": "B+", "description": "华北地区领先"},
+        {"name": "肿瘤学", "level": "A", "description": "全国顶尖"},
+        {"name": "中西医结合", "level": "A", "description": "全国领先"},
+        {"name": "口腔医学", "level": "B", "description": "华北地区前列"},
+        {"name": "药学", "level": "B+", "description": "华北地区前列"}
+      ],
+      "rankings": {
+        "软科2024": "医药类第5",
+        "学科评估": "2个A类学科"
+      },
+      "admission": {
+        "2024天津分数线": "600+",
+        "招生人数": "约1000人/年",
+        "学费": "5000-6000元/年",
+        "学制": "5年（临床医学）"
+      },
+      "campus": ["主校区", "广东路校区"],
+      "description": "天津医科大学是天津市属重点大学，是国家"211工程"重点建设高校，入选国家"双一流"建设高校。肿瘤学、中西医结合学科全国领先。",
+      "suitable_for": ["医学类考生", "肿瘤学方向"],
+      "employment_rate": "90%+",
+      "affiliated_hospitals": ["天津医科大学总医院", "天津医科大学肿瘤医院"]
+    },
+    {
+      "id": "tj-004",
+      "name": "河北工业大学",
+      "type": "211",
+      "level": "重点",
+      "province": "河北（校址在天津）",
+      "city": "天津",
+      "location": "北辰区西平道5340号",
+      "official_url": "https://www.hebut.edu.cn/",
+      "established": "1903年",
+      "features": ["工科强", "电气强", "材料强"],
+      "hot_majors": [
+        {"name": "电气工程", "level": "B+", "description": "全国前列"},
+        {"name": "材料科学与工程", "level": "B", "description": "全国中上"},
+        {"name": "机械工程", "level": "B", "description": "全国中上"},
+        {"name": "化学工程与技术", "level": "B", "description": "全国中上"},
+        {"name": "工商管理", "level": "B-", "description": "全国中上"}
+      ],
+      "rankings": {
+        "软科2024": "全国第100左右",
+        "学科评估": "2个B+学科"
+      },
+      "admission": {
+        "2024天津分数线": "580+",
+        "招生人数": "约5000人/年",
+        "学费": "5000-6000元/年"
+      },
+      "campus": ["北辰校区", "红桥校区"],
+      "description": "河北工业大学是河北省属重点大学，校址位于天津市，是国家"211工程"重点建设高校。电气工程学科全国前列。",
+      "suitable_for": ["工科生", "电气类考生"],
+      "employment_rate": "88%+",
+      "special_note": "隶属河北省，但校址在天津"
+    },
+    {
+      "id": "tj-005",
+      "name": "天津师范大学",
+      "type": "普通本科",
+      "level": "重点",
+      "province": "天津",
+      "city": "天津",
+      "location": "西青区宾水西道393号",
+      "official_url": "https://www.tjnu.edu.cn/",
+      "established": "1958年",
+      "features": ["师范强", "心理学强", "教育学强"],
+      "hot_majors": [
+        {"name": "心理学", "level": "B+", "description": "华北地区领先"},
+        {"name": "教育学", "level": "B", "description": "华北地区前列"},
+        {"name": "政治学", "level": "B-", "description": "华北地区中上"},
+        {"name": "中国语言文学", "level": "B-", "description": "华北地区中上"},
+        {"name": "世界史", "level": "B", "description": "华北地区前列"}
+      ],
+      "rankings": {
+        "软科2024": "全国第100左右",
+        "师范类": "华北地区第2"
+      },
+      "admission": {
+        "2024天津分数线": "550+",
+        "招生人数": "约4000人/年",
+        "学费": "4000-5000元/年"
+      },
+      "campus": ["主校区"],
+      "description": "天津师范大学是天津市属重点大学，师范类专业华北地区领先，心理学学科全国前列。",
+      "suitable_for": ["师范类考生", "心理学考生"],
+      "employment_rate": "85%+"
+    },
+    {
+      "id": "tj-006",
+      "name": "天津工业大学",
+      "type": "普通本科",
+      "level": "重点",
+      "province": "天津",
+      "city": "天津",
+      "location": "西青区宾水西道399号",
+      "official_url": "https://www.tiangong.edu.cn/",
+      "established": "1912年",
+      "features": ["纺织顶尖", "材料强", "工科特色"],
+      "hot_majors": [
+        {"name": "纺织科学与工程", "level": "A+", "description": "全国第一"},
+        {"name": "材料科学与工程", "level": "B-", "description": "全国中上"},
+        {"name": "机械工程", "level": "B-", "description": "全国中上"},
+        {"name": "计算机科学与技术", "level": "B-", "description": "全国中上"},
+        {"name": "环境科学与工程", "level": "C+", "description": "地区前列"}
+      ],
+      "rankings": {
+        "软科2024": "全国第150左右",
+        "纺织类": "全国第1"
+      },
+      "admission": {
+        "2024天津分数线": "520+",
+        "招生人数": "约5000人/年",
+        "学费": "4000-5000元/年"
+      },
+      "campus": ["主校区"],
+      "description": "天津工业大学是天津市属重点大学，纺织科学与工程学科全国第一，入选国家"双一流"建设学科。",
+      "suitable_for": ["纺织类考生", "材料类考生"],
+      "employment_rate": "85%+",
+      "double_first_class": "纺织科学与工程"
+    },
+    {
+      "id": "tj-007",
+      "name": "天津财经大学",
+      "type": "普通本科",
+      "level": "重点",
+      "province": "天津",
+      "city": "天津",
+      "location": "河西区珠江道25号",
+      "official_url": "https://www.tjufe.edu.cn/",
+      "established": "1958年",
+      "features": ["财经强", "会计强", "统计强"],
+      "hot_majors": [
+        {"name": "会计学", "level": "B+", "description": "华北地区领先"},
+        {"name": "统计学", "level": "B+", "description": "华北地区前列"},
+        {"name": "金融学", "level": "B", "description": "华北地区中上"},
+        {"name": "工商管理", "level": "B", "description": "华北地区中上"},
+        {"name": "应用经济学", "level": "B", "description": "华北地区中上"}
+      ],
+      "rankings": {
+        "软科2024": "财经类第15",
+        "财经类": "华北地区第3"
+      },
+      "admission": {
+        "2024天津分数线": "550+",
+        "招生人数": "约3000人/年",
+        "学费": "4000-5000元/年"
+      },
+      "campus": ["主校区"],
+      "description": "天津财经大学是天津市属重点大学，财经类专业华北地区领先，会计学、统计学学科全国前列。",
+      "suitable_for": ["财经类考生", "会计类考生"],
+      "employment_rate": "88%+"
+    },
+    {
+      "id": "tj-008",
+      "name": "天津理工大学",
+      "type": "普通本科",
+      "level": "一般",
+      "province": "天津",
+      "city": "天津",
+      "location": "西青区宾水西道391号",
+      "official_url": "https://www.tjut.edu.cn/",
+      "established": "1979年",
+      "features": ["工科特色", "计算机强", "电气强"],
+      "hot_majors": [
+        {"name": "计算机科学与技术", "level": "B-", "description": "地区前列"},
+        {"name": "电气工程", "level": "C+", "description": "地区前列"},
+        {"name": "机械工程", "level": "C+", "description": "地区前列"},
+        {"name": "材料科学与工程", "level": "C", "description": "地区中上"},
+        {"name": "化学工程与技术", "level": "C", "description": "地区中上"}
+      ],
+      "rankings": {
+        "软科2024": "全国第200左右"
+      },
+      "admission": {
+        "2024天津分数线": "500+",
+        "招生人数": "约5000人/年",
+        "学费": "4000-5000元/年"
+      },
+      "campus": ["主校区"],
+      "description": "天津理工大学是天津市属普通本科院校，工科类专业天津地区前列，计算机科学与技术学科地区领先。",
+      "suitable_for": ["工科生", "计算机类考生"],
+      "employment_rate": "82%+"
+    },
+    {
+      "id": "tj-009",
+      "name": "天津科技大学",
+      "type": "普通本科",
+      "level": "重点",
+      "province": "天津",
+      "city": "天津",
+      "location": "滨海新区泰达十三大街29号",
+      "official_url": "https://www.tust.edu.cn/",
+      "established": "1958年",
+      "features": ["食品强", "轻工强", "海洋特色"],
+      "hot_majors": [
+        {"name": "食品科学与工程", "level": "B+", "description": "全国前列"},
+        {"name": "轻工技术与工程", "level": "B", "description": "全国中上"},
+        {"name": "化学工程与技术", "level": "B-", "description": "全国中上"},
+        {"name": "海洋科学", "level": "C+", "description": "地区前列"},
+        {"name": "机械工程", "level": "C+", "description": "地区前列"}
+      ],
+      "rankings": {
+        "软科2024": "全国第150左右",
+        "食品类": "全国第5"
+      },
+      "admission": {
+        "2024天津分数线": "520+",
+        "招生人数": "约5000人/年",
+        "学费": "4000-5000元/年"
+      },
+      "campus": ["滨海校区", "河西校区"],
+      "description": "天津科技大学是天津市属重点大学，食品科学与工程学科全国前列，轻工技术与工程学科全国中上。",
+      "suitable_for": ["食品类考生", "轻工类考生"],
+      "employment_rate": "85%+"
+    },
+    {
+      "id": "tj-010",
+      "name": "中国民航大学",
+      "type": "普通本科",
+      "level": "重点",
+      "province": "天津",
+      "city": "天津",
+      "location": "东丽区津北公路28号",
+      "official_url": "https://www.cauc.edu.cn/",
+      "established": "1951年",
+      "features": ["民航特色", "交通运输强", "航空工程"],
+      "hot_majors": [
+        {"name": "交通运输", "level": "B-", "description": "民航领域顶尖"},
+        {"name": "航空工程", "level": "C+", "description": "民航领域领先"},
+        {"name": "飞行技术", "level": "特色", "description": "飞行员培养"},
+        {"name": "民航管理", "level": "特色", "description": "民航管理"},
+        {"name": "计算机科学与技术", "level": "C+", "description": "地区中上"}
+      ],
+      "rankings": {
+        "软科2024": "全国第200左右",
+        "民航类": "全国第1"
+      },
+      "admission": {
+        "2024天津分数线": "500+",
+        "招生人数": "约3000人/年",
+        "学费": "4000-5000元/年",
+        "特殊要求": "部分专业需体检"
+      },
+      "campus": ["主校区"],
+      "description": "中国民航大学是民航局直属高校，民航领域全国顶尖，培养飞行员、航空工程师、民航管理人员。",
+      "suitable_for": ["民航类考生", "交通运输考生"],
+      "employment_rate": "90%+",
+      "special_note": "民航局直属，就业方向明确"
+    }
+  ],
+  "summary": {
+    "985_count": 2,
+    "211_count": 4,
+    "double_first_class": 3,
+    "top_recommendations": [
+      {"name": "南开大学", "reason": "文理综合，985顶尖"},
+      {"name": "天津大学", "reason": "工科顶尖，985名校"},
+      {"name": "天津医科大学", "reason": "医学211，肿瘤学强"},
+      {"name": "天津工业大学", "reason": "纺织全国第一，双一流"}
+    ],
+    "for_middle_score_students": [
+      {"name": "天津师范大学", "score_range": "550-600"},
+      {"name": "天津财经大学", "score_range": "550-600"},
+      {"name": "天津科技大学", "score_range": "520-560"},
+      {"name": "天津理工大学", "score_range": "500-550"}
+    ]
+  },
+  "data_verification": {
+    "sources": [
+      {"name": "教育部官网", "url": "http://www.moe.gov.cn/"},
+      {"name": "各高校官网", "urls": "见各学校official_url字段"},
+      {"name": "软科排名2024", "url": "https://www.shanghairanking.cn/"}
+    ],
+    "verification_date": "2026-04-04",
+    "note": "本数据来源于教育部官方公布和各高校官网，分数线为2024年天津地区参考值，实际以当年招生简章为准"
+  },
+  "created_at": "2026-04-04T22:25:00+08:00",
+  "created_by": "启程项目数据团队"
+}

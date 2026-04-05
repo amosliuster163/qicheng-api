@@ -93,11 +93,13 @@ async function recommend(score, province, interests) {
  * 专业列表
  */
 async function getMajors() {
-  // 从数据文件读取
-  const dataPath = path.join(__dirname, '../../data/majors-hot.json');
+  // 从数据文件读取热门专业详情
+  const dataPath = path.join(__dirname, '../../data/majors-hot-detail.json');
   
   if (fs.existsSync(dataPath)) {
-    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    const raw = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    // 转换为前端友好格式
+    const data = raw.majors || raw.data || raw;
     return { total: data.length, data };
   }
   
@@ -105,16 +107,16 @@ async function getMajors() {
   return {
     total: 10,
     data: [
-      { code: '080901', name: '计算机科学与技术', category: '工学', hot: true },
-      { code: '080701', name: '电子信息工程', category: '工学', hot: true },
-      { code: '120201', name: '工商管理', category: '管理学', hot: true },
-      { code: '020101', name: '经济学', category: '经济学', hot: true },
-      { code: '050101', name: '汉语言文学', category: '文学', hot: true },
-      { code: '030101', name: '法学', category: '法学', hot: true },
-      { code: '100301', name: '临床医学', category: '医学', hot: true },
-      { code: '070101', name: '数学与应用数学', category: '理学', hot: true },
-      { code: '080601', name: '电气工程及其自动化', category: '工学', hot: true },
-      { code: '120103', name: '会计学', category: '管理学', hot: true }
+      { code: '080901', name: '计算机科学与技术', category: '工学', description: '研究计算机系统设计与开发', employment: '软件工程师、系统架构师' },
+      { code: '080701', name: '电子信息工程', category: '工学', description: '研究电子设备与信息系统', employment: '硬件工程师、通信工程师' },
+      { code: '120201', name: '工商管理', category: '管理学', description: '研究企业管理与经营决策', employment: '企业管理、市场营销' },
+      { code: '020101', name: '经济学', category: '经济学', description: '研究经济运行规律', employment: '金融分析师、经济研究员' },
+      { code: '050101', name: '汉语言文学', category: '文学', description: '研究汉语与中国文学', employment: '编辑、教师、文案' },
+      { code: '030101', name: '法学', category: '法学', description: '研究法律制度与实践', employment: '律师、法务、公务员' },
+      { code: '100301', name: '临床医学', category: '医学', description: '培养临床医生', employment: '医院临床医师' },
+      { code: '070101', name: '数学与应用数学', category: '理学', description: '研究数学理论与应用', employment: '数据分析师、教师' },
+      { code: '080601', name: '电气工程及其自动化', category: '工学', description: '研究电力系统与自动化', employment: '电气工程师、自动化工程师' },
+      { code: '120103', name: '会计学', category: '管理学', description: '研究财务会计与管理', employment: '会计师、财务经理' }
     ]
   };
 }
@@ -123,17 +125,24 @@ async function getMajors() {
  * 学校列表
  */
 async function getUniversities(level = 'all', province = null) {
-  const dataPath = path.join(__dirname, '../../data/universities-985.json');
+  // 根据level选择数据文件
+  let dataFile = 'universities-top100.json';
+  if (level === '985') dataFile = 'universities-985.json';
+  if (level === '211') dataFile = 'universities-211.json';
+  if (province === '天津') dataFile = 'universities-tianjin.json';
+  
+  const dataPath = path.join(__dirname, '../../data', dataFile);
   
   if (fs.existsSync(dataPath)) {
-    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    const raw = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    let data = raw.universities || raw.data || raw;
     
-    let filtered = data;
-    if (level === '985') filtered = data.filter(u => u.level === '985');
-    if (level === '211') filtered = data.filter(u => u.level === '211');
-    if (province) filtered = filtered.filter(u => u.province === province);
+    // 筛选
+    if (province && province !== '天津') {
+      data = data.filter(u => u.province === province || u.city === province);
+    }
     
-    return { total: filtered.length, data: filtered.slice(0, 20) };
+    return { total: data.length, data: data.slice(0, 50) };
   }
   
   // 默认返回示例数据
