@@ -4,7 +4,7 @@
 
 const express = require('express');
 const router = express.Router();
-const { chat, recommend, getMajors, getUniversities, getHighschools } = require('../services');
+const { chat, recommend, getMajors, getUniversities, getHighschools, getMiddleschools } = require('../services');
 
 // AI问答接口
 router.post('/chat', async (req, res) => {
@@ -54,6 +54,17 @@ router.get('/highschools', async (req, res) => {
   try {
     const { district } = req.query;
     const result = await getHighschools(district);
+    res.json(result);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// 天津初中列表接口
+router.get('/middleschools', async (req, res) => {
+  try {
+    const { district } = req.query;
+    const result = await getMiddleschools(district);
     res.json(result);
   } catch (error) {
     res.status(500).json({ error: error.message });

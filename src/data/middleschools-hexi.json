@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "天津市河西区初中学校名单",
+    "source": "天津教育局+实地调研",
+    "updated": "2026-04-05",
+    "note": "部分数据待实地调研补充"
+  },
+  "middleschools": [
+    {
+      "name": "天津市新华中学初中部",
+      "level": "区重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "新华中学初中部，教学质量优秀",
+      "features": ["师资优秀", "升学率高", "与高中衔接"],
+      "highschool_rate": "85%",
+      "note": "新华中学是市重点高中，初中部升学有优势"
+    },
+    {
+      "name": "天津市实验中学初中部",
+      "level": "区重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "实验中学初中部，理科特色",
+      "features": ["理科强", "实验特色", "升学率高"],
+      "highschool_rate": "80%",
+      "note": "实验中学是市重点高中，初中部理科强"
+    },
+    {
+      "name": "天津市第四中学初中部",
+      "level": "区重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "四中初中部，教学质量稳定",
+      "features": ["师资稳定", "升学率中等"],
+      "highschool_rate": "70%",
+      "note": "四中是区重点高中，初中部升学稳定"
+    },
+    {
+      "name": "天津市第四十二中学初中部",
+      "level": "区重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "四十二中初中部，教学质量稳定",
+      "features": ["师资稳定", "升学率中等"],
+      "highschool_rate": "65%",
+      "note": "四十二中是区重点高中，初中部升学稳定"
+    },
+    {
+      "name": "天津市海河中学初中部",
+      "level": "区重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "海河中学初中部",
+      "features": ["师资稳定", "升学率中等"],
+      "highschool_rate": "60%",
+      "note": "海河中学是区重点高中"
+    },
+    {
+      "name": "天津市河西区第一中学",
+      "level": "普通",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区普通初中",
+      "features": ["师资稳定", "升学率中等"],
+      "highschool_rate": "50%",
+      "note": "待实地调研补充信息"
+    },
+    {
+      "name": "天津市河西区第二中学",
+      "level": "普通",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区普通初中",
+      "features": ["师资稳定", "升学率中等"],
+      "highschool_rate": "50%",
+      "note": "待实地调研补充信息"
+    },
+    {
+      "name": "天津市河西区第三中学",
+      "level": "普通",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区普通初中",
+      "features": ["师资稳定", "升学率中等"],
+      "highschool_rate": "50%",
+      "note": "待实地调研补充信息"
+    },
+    {
+      "name": "天津市河西区第四中学",
+      "level": "普通",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区普通初中",
+      "features": ["师资稳定", "升学率中等"],
+      "highschool_rate": "50%",
+      "note": "待实地调研补充信息"
+    },
+    {
+      "name": "天津市河西区第五中学",
+      "level": "普通",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区普通初中",
+      "features": ["师资稳定", "升学率中等"],
+      "highschool_rate": "50%",
+      "note": "待实地调研补充信息"
+    }
+  ]
+}

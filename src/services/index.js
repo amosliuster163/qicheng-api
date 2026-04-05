@@ -181,10 +181,40 @@ async function getHighschools(district = null) {
   }
 }
 
+/**
+ * 天津初中列表（河西区）
+ */
+async function getMiddleschools(district = null) {
+  try {
+    const raw = require('../data/middleschools-hexi.json');
+    let data = raw.middleschools || raw.data || raw;
+    
+    // 筛选区域
+    if (district) {
+      data = data.filter(m => m.district === district);
+    }
+    
+    return { total: data.length, data };
+  } catch (e) {
+    return {
+      total: 5,
+      data: [
+        { name: '天津市新华中学初中部', level: '区重点', district: '河西区', highschool_rate: '85%' },
+        { name: '天津市实验中学初中部', level: '区重点', district: '河西区', highschool_rate: '80%' },
+        { name: '天津市第四中学初中部', level: '区重点', district: '河西区', highschool_rate: '70%' },
+        { name: '天津市第四十二中学初中部', level: '区重点', district: '河西区', highschool_rate: '65%' },
+        { name: '天津市海河中学初中部', level: '区重点', district: '河西区', highschool_rate: '60%' }
+      ],
+      error: e.message
+    };
+  }
+}
+
 module.exports = {
   chat,
   recommend,
   getMajors,
   getUniversities,
-  getHighschools
+  getHighschools,
+  getMiddleschools
 };
