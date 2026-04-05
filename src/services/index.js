@@ -94,7 +94,7 @@ async function recommend(score, province, interests) {
  */
 async function getMajors() {
   // 从数据文件读取热门专业详情
-  const dataPath = path.join(__dirname, '../../data/majors-hot-detail.json');
+  const dataPath = path.join(__dirname, '../data/majors-hot-detail.json');
   
   if (fs.existsSync(dataPath)) {
     const raw = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
@@ -131,7 +131,7 @@ async function getUniversities(level = 'all', province = null) {
   if (level === '211') dataFile = 'universities-211.json';
   if (province === '天津') dataFile = 'universities-tianjin.json';
   
-  const dataPath = path.join(__dirname, '../../data', dataFile);
+  const dataPath = path.join(__dirname, '../data', dataFile);
   
   // 添加调试信息
   const debug = {
