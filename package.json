@@ -1,0 +1,15 @@
+{
+  "name": "qicheng-api",
+  "version": "1.0.0",
+  "description": "启程项目API网关 - 高考志愿填报问答系统",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0"
+  }
+}
