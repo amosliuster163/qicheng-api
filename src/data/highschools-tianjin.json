@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "天津市重点高中名单",
+    "source": "天津教育局",
+    "updated": "2026-04-05"
+  },
+  "highschools": [
+    {
+      "name": "天津市第一中学",
+      "level": "市重点",
+      "district": "和平区",
+      "type": "公立",
+      "description": "天津市顶尖高中，历史悠久，教学质量优秀",
+      "features": ["理科强", "竞赛成绩突出", "升学率高"],
+      "minScore": 560,
+      "employment_rate": "98%",
+      "uni_rate": "95%"
+    },
+    {
+      "name": "天津市南开中学",
+      "level": "市重点",
+      "district": "南开区",
+      "type": "公立",
+      "description": "百年名校，周恩来母校，文理并重",
+      "features": ["历史悠久", "文理均衡", "师资优秀"],
+      "minScore": 555,
+      "employment_rate": "98%",
+      "uni_rate": "94%"
+    },
+    {
+      "name": "天津市耀华中学",
+      "level": "市重点",
+      "district": "和平区",
+      "type": "公立",
+      "description": "天津市重点中学，教学质量优秀",
+      "features": ["理科强", "升学率高", "社团丰富"],
+      "minScore": 550,
+      "employment_rate": "97%",
+      "uni_rate": "93%"
+    },
+    {
+      "name": "天津市新华中学",
+      "level": "市重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区重点中学，教学质量优秀",
+      "features": ["文科强", "师资优秀", "升学率高"],
+      "minScore": 545,
+      "employment_rate": "96%",
+      "uni_rate": "92%"
+    },
+    {
+      "name": "天津市实验中学",
+      "level": "市重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区重点中学，实验特色",
+      "features": ["理科强", "实验特色", "升学率高"],
+      "minScore": 540,
+      "employment_rate": "95%",
+      "uni_rate": "90%"
+    },
+    {
+      "name": "天津市第二中学",
+      "level": "区重点",
+      "district": "河北区",
+      "type": "公立",
+      "description": "河北区重点中学",
+      "features": ["师资稳定", "升学率中等"],
+      "minScore": 520,
+      "employment_rate": "92%",
+      "uni_rate": "85%"
+    },
+    {
+      "name": "天津市第三中学",
+      "level": "区重点",
+      "district": "红桥区",
+      "type": "公立",
+      "description": "红桥区重点中学",
+      "features": ["师资稳定", "升学率中等"],
+      "minScore": 515,
+      "employment_rate": "90%",
+      "uni_rate": "82%"
+    },
+    {
+      "name": "天津市第四中学",
+      "level": "区重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区重点中学",
+      "features": ["师资稳定", "升学率中等"],
+      "minScore": 510,
+      "employment_rate": "88%",
+      "uni_rate": "80%"
+    },
+    {
+      "name": "天津市第四十二中学",
+      "level": "区重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区重点中学",
+      "features": ["师资稳定", "升学率中等"],
+      "minScore": 505,
+      "employment_rate": "85%",
+      "uni_rate": "78%"
+    },
+    {
+      "name": "天津市海河中学",
+      "level": "区重点",
+      "district": "河西区",
+      "type": "公立",
+      "description": "河西区重点中学",
+      "features": ["师资稳定", "升学率中等"],
+      "minScore": 500,
+      "employment_rate": "83%",
+      "uni_rate": "75%"
+    }
+  ]
+}
