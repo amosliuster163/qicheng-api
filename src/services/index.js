@@ -133,6 +133,15 @@ async function getUniversities(level = 'all', province = null) {
   
   const dataPath = path.join(__dirname, '../../data', dataFile);
   
+  // 添加调试信息
+  const debug = {
+    requestedLevel: level,
+    requestedProvince: province,
+    selectedFile: dataFile,
+    filePath: dataPath,
+    fileExists: fs.existsSync(dataPath)
+  };
+  
   if (fs.existsSync(dataPath)) {
     const raw = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
     let data = raw.universities || raw.data || raw;
@@ -142,7 +151,7 @@ async function getUniversities(level = 'all', province = null) {
       data = data.filter(u => u.province === province || u.city === province);
     }
     
-    return { total: data.length, data: data.slice(0, 50) };
+    return { total: data.length, data: data.slice(0, 50), debug };
   }
   
   // 默认返回示例数据
@@ -154,7 +163,8 @@ async function getUniversities(level = 'all', province = null) {
       { name: '南开大学', level: '985', province: '天津', minScore: 630 },
       { name: '天津大学', level: '985', province: '天津', minScore: 625 },
       { name: '复旦大学', level: '985', province: '上海', minScore: 670 }
-    ]
+    ],
+    debug
   };
 }
 
